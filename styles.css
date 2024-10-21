@@ -17,7 +17,7 @@ section.about
     padding: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #4285F4;
+    background-color: #f9ff88;
     filter: drop-shadow(0 0 0.75rem black);
     display: flex;
 }
@@ -32,13 +32,13 @@ div.aboutme
     margin: 0 auto;
     width: 50%;
     padding: 15px;
-    background-color: #f0f0f0;
+    background-color: #ffee31;
     border-radius: 20px;
 }
 
 .mypicture
 {
-    border: solid #ffffff;
+    border: solid #cfcf00;
     padding: 15px;
     border-radius: 20px;
     margin-right: 100px;
