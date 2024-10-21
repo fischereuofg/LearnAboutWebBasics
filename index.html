@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Portfolio</title>
 
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Ethan Fischer</h1>
+        <h2>Student at University of Quelph</h2>
+        <p>I am 19 years old</p>
+        <p>ethanfischer360@gmail.com</p>
     </header>
 
     <!-- 3. About Me -->
     <section>
         <!-- 3a. The About Me Section -->
-
+        <div class="aboutMe">
+            <h2>About Me</h2>
+            <p>I really like fish.</p>
+        </div>
 
         <!-- 4. Add a Picture -->
         <div>
-
+            <img src="images/photo.png" style="width: 200px" class="myPicture"/>
         </div>
     </section>
 
@@ -33,10 +39,26 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4><a href="https://github.com/fischereuofg/LearnAboutWebBasics" target="_blank">Portfolio Project</a></h4>
 
             <!-- 5b. Add project description -->
+            <ul>
+                <li>Learned about HTML</li>
+                <li>Learned about VSCode</li>
+                <li>Learned about GitHub</li>
+            </ul> 
 
+        </div>
+        <div>
+            <!-- 5a. Add project title -->
+            <h4><a href="https://www.nutritionadvance.com/wp-content/uploads/2018/02/delicious-types-of-cheese.jpg" target="_blank">I like Cheese</a></h4>
+
+            <!-- 5b. Add project description -->
+            <ul>
+                <li>Made Cheese</li>
+                <li>Ate Cheese</li>
+                <li>Still have Cheese</li>
+            </ul> 
 
         </div>
     </section>
@@ -46,7 +68,7 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
-
+        <a href="https://www.nutritionadvance.com/wp-content/uploads/2018/02/delicious-types-of-cheese.jpg" target="_blank"><button>CHEESE</button></a>
     </footer>
 </body>
 </html>
